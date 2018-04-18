@@ -1,4 +1,4 @@
-import qpack.*;
+﻿import qpack.*;
 
 public class IQDemo {
     public  static void main (String args[]){
@@ -32,7 +32,7 @@ public class IQDemo {
 
         }
 
-        System.out.println("Cодержимое фиксированной очереди:");
+        System.out.println("Cодержимое динамической очереди:");
         for (int i=0; i<10;i++){
             ch=iQ.get();
             System.out.print(ch);
@@ -47,7 +47,7 @@ public class IQDemo {
 
         }
 
-        System.out.println("Cодержимое фиксированной очереди:");
+        System.out.println("Cодержимое циклической очереди:");
         for (int i=0; i<10;i++){
             ch=iQ.get();
             System.out.print(ch);
